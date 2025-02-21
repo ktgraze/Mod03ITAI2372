@@ -17,7 +17,8 @@ Clone the project repository to your local machine.
 
 ```sh
 git clone <repository_url>
-cd <repository_directory>```
+cd <repository_directory>
+```
 
 ### 2. Set up Virtual Environment
 
@@ -27,5 +28,19 @@ Create a virtual environment:
 Activate the virtual environment:
 - On Windows:
 `.\env\Scripts\activate`
+- On macOS/Linux:
+  `source env/bin/activate`
+
+### 3. Install Dependencies
+Install the required packages using `requirements.txt`:
+`pip install -r requirements.txt`
+
+### 4. Download NLTK Data
+Ensure the necessary NLTK data is downloaded. This is already handled in `Symptom_Checker.py` with:
+```nltk.download('punkt')
+  nltk.download('stopwords')
+  nltk.download('wordnet')
+```
+
 
 <img width="843" alt="Screenshot 2025-02-20 at 3 27 49 PM" src="https://github.com/user-attachments/assets/e21e9134-a2a3-4c6a-bd21-b117a545b642" />
