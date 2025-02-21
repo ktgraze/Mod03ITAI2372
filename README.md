@@ -37,10 +37,21 @@ Install the required packages using `requirements.txt`:
 
 ### 4. Download NLTK Data
 Ensure the necessary NLTK data is downloaded. This is already handled in `Symptom_Checker.py` with:
-```nltk.download('punkt')
-  nltk.download('stopwords')
-  nltk.download('wordnet')
+```sh
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 ```
+### 5. Run the Application
+Run the Flask Application:
+`python Symptom_Checker.py`
 
+#### Usage:
+1. Open your web browser and navigate to [http://127.0.0.1:5000/].
+2. Enter your symptoms in the input field and submit the form.
+3. View the diagnosis and triage level on the result page.
+
+##### Disclaimer:
+This project is a simple symptom checker web application built using Flask and NLTK. It allows users to input their symptoms and receive a possible diagnosis and triage level.
 
 <img width="843" alt="Screenshot 2025-02-20 at 3 27 49 PM" src="https://github.com/user-attachments/assets/e21e9134-a2a3-4c6a-bd21-b117a545b642" />
