@@ -1,3 +1,8 @@
+Following along with the Module 03 weekend project assignment aid, I created the setup and environment using Visual Studio Code, along with the help of GitHub Copilot. After some trial and error, as this was my first time working with Flask, I managed to create a simple Flask app webpage. I ran into trouble rendering the HTML code for the `results.html` page, but did manage to get the home page/ index (`indexv3.html`) to render (example below).
+
+
+<img width="843" alt="Screenshot 2025-02-20 at 3 27 49 PM" src="https://github.com/user-attachments/assets/e21e9134-a2a3-4c6a-bd21-b117a545b642" />
+
 # Symptom Checker
 
 This project is a simple symptom checker web application built using Flask and NLTK. It allows users to input their symptoms and receive a possible diagnosis and triage level.
@@ -54,4 +59,3 @@ Run the Flask Application:
 ##### Disclaimer:
 This project is a simple symptom checker web application built using Flask and NLTK. It allows users to input their symptoms and receive a possible diagnosis and triage level.
 
-<img width="843" alt="Screenshot 2025-02-20 at 3 27 49 PM" src="https://github.com/user-attachments/assets/e21e9134-a2a3-4c6a-bd21-b117a545b642" />
